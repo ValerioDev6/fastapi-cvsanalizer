@@ -17,5 +17,11 @@ class Settings:
 
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY")
 
+    MAILER_SERVICE: str = os.getenv("MAILER_SERVICE")
+
+    MAILER_EMAIL: str = os.getenv("MAILER_EMAIL")
+
+    MAILER_PASSWORD: str = os.getenv("MAILER_PASSWORD")
+
 
 settings = Settings()
