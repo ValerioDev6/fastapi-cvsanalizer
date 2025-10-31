@@ -42,3 +42,6 @@ python-dateutil==2.9.0.post0
 # TYPING EXTENSIONS
 # ================================
 typing_extensions==4.15.0
+
+
+python-multipart==0.0.20
