@@ -10,6 +10,7 @@ router = APIRouter()
 
 origins = [
     "http://localhost:4200",
+    "https://angular-cvanalizer.onrender.com",
     # "https://angular-veterinaria.onrender.com",
     # "*",
 ]
